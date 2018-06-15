@@ -1,0 +1,176 @@
+{
+"dev":
+    [
+   {
+    "id": 1,
+   "name": "Camille Rowe",
+   "skill": "Django",
+   "gender": "female"
+  },
+  {
+              "id": 2,
+  "name": "Clara Smith",
+  "skill": "Django",
+  "gender": "female"
+  },
+  {
+              "id": 3,
+  "name": "Connie Jones",
+  "skill": "Django",
+  "gender": "female"
+  },
+  {
+              "id": 4,
+  "name": "Dominic Hope",
+  "skill": "Django",
+  "gender": "male"
+  },
+  {
+              "id": 5,
+  "name": "George Stanley",
+  "skill": "Django",
+  "gender": "male"
+  },
+  {
+              "id": 6,
+  "name": "Jay Jiang",
+  "skill": "Django",
+  "gender": "male"
+  },
+  {
+              "id": 7,
+  "name": "Josephine Taylor",
+  "skill": "Django",
+  "gender": "female"
+  },
+  {
+              "id": 8,
+  "name": "Rachel Green",
+  "skill": "Django",
+  "gender": "female"
+  },
+  {
+              "id": 9,
+  "name": "Sagar Shah",
+  "skill": "Django",
+  "gender": "male"
+  },
+  {
+              "id": 10,
+  "name": "Sammie Lopez",
+  "skill": "Django",
+  "gender": "female"
+  },
+  {
+              "id": 11,
+  "name": "Sandra Bonhomme",
+  "skill": "Django",
+  "gender": "female"
+  },
+  {
+              "id": 12,
+  "name": "Sasha Doe",
+  "skill": "Django",
+  "gender": "female"
+  },
+  {
+              "id": 13,
+  "name": "Tatianna Marshall",
+  "skill": "Django",
+  "gender": "female"
+  },
+  {
+              "id": 14,
+  "name": "Taylor Thompson",
+  "skill": "Django",
+  "gender": "female"
+  },
+  {
+              "id": 15,
+  "name": "Tom Brady",
+  "skill": "Django",
+  "gender": "male"
+  },
+  {"id": 16,
+  "name": "Eric Street",
+  "skill": "Python",
+  "gender": "male"
+  },
+  {"id": 17,
+  "name": "Jannifer Lopez",
+  "skill": "Python",
+  "gender": "female"
+  },
+  {
+              "id": 18,
+  "name": "Joanna Silver",
+  "skill": "Python",
+  "gender": "female"
+  },
+  {
+              "id": 19,
+  "name": "John Harper",
+  "skill": "Python",
+  "gender": "male"
+  },
+  {
+              "id": 20,
+  "name": "Marine Simon",
+  "skill": "Python",
+  "gender": "female"
+  },
+  {
+              "id": 21,
+  "name": "Ronald Duck",
+  "skill": "Python",
+  "gender": "male"
+  },
+  {
+              "id": 22,
+  "name": "Bob Thomas",
+  "skill": "React",
+  "gender": "male"
+  },
+  {
+              "id": 23,
+  "name": "Chloe Isabella",
+  "skill": "React",
+  "gender": "female"
+  },
+  {"id": 24,
+  "name": "Gaby Simone",
+  "skill": "React",
+  "gender": "female"
+  },
+  {
+              "id": 25,
+  "name": "Hunter Dickson",
+  "skill": "React",
+  "gender": "male"
+  },
+  {
+              "id": 26,
+  "name": "Sam Gupta",
+  "skill": "React",
+  "gender": "male"
+  },
+  {
+              "id": 27,
+  "name": "Sarah Seemore",
+  "skill": "React",
+  "gender": "female"
+  },
+  {
+              "id": 28,
+  "name": "Sophie Gerbauld",
+  "skill": "React",
+  "gender": "female"
+  },
+  {
+              "id": 29,
+  "name": "Sophie Laura",
+  "skill": "React",
+  "gender": "female"
+  }
+ ]
+}
