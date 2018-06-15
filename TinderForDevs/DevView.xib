@@ -24,37 +24,56 @@
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Surname" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gay-Yt-zjU">
-                    <rect key="frame" x="0.0" y="0.0" width="200" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="29"/>
+                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
+                    <color key="textColor" red="0.85043728351593018" green="0.21816034615039825" blue="0.15920260548591614" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Django" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGd-Cm-Vpl">
-                    <rect key="frame" x="0.0" y="279" width="200" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
+                    <rect key="frame" x="0.0" y="274" width="200" height="26"/>
+                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="19"/>
+                    <color key="textColor" red="0.85043728351593018" green="0.21816034615039825" blue="0.15920260548591614" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jxw-KU-BMn">
+                    <rect key="frame" x="60" y="110" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="BP4-Ni-9Ff"/>
+                        <constraint firstAttribute="height" constant="80" id="UBh-Aw-zpN"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skills:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DPL-p2-FOX">
+                    <rect key="frame" x="0.0" y="248" width="200" height="26"/>
+                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="19"/>
+                    <color key="textColor" red="0.67455112934112549" green="0.15692374110221863" blue="0.10914970934391022" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="YGd-Cm-Vpl" secondAttribute="trailing" id="2UH-9D-zZa"/>
+                <constraint firstItem="Jxw-KU-BMn" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="63C-F6-Egb"/>
                 <constraint firstItem="NdA-cK-f3w" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Fft-HP-j0T"/>
+                <constraint firstItem="Jxw-KU-BMn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Kfj-ES-8oD"/>
                 <constraint firstItem="YGd-Cm-Vpl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="LVk-IH-5n6"/>
                 <constraint firstItem="NdA-cK-f3w" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Poe-Ok-kwh"/>
                 <constraint firstItem="Gay-Yt-zjU" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Q99-fI-yvN"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Gay-Yt-zjU" secondAttribute="trailing" id="YQ2-QT-X4r"/>
+                <constraint firstItem="DPL-p2-FOX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="dms-Vp-Czj"/>
+                <constraint firstItem="YGd-Cm-Vpl" firstAttribute="top" secondItem="DPL-p2-FOX" secondAttribute="bottom" id="efT-lT-gdv"/>
                 <constraint firstItem="Gay-Yt-zjU" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="fSk-xJ-er1"/>
+                <constraint firstItem="DPL-p2-FOX" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="ksg-kd-IQt"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="YGd-Cm-Vpl" secondAttribute="bottom" id="rAV-I5-ZlN"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
-                <outlet property="imageLabel" destination="NdA-cK-f3w" id="rio-xK-k9z"/>
+                <outlet property="devImageView" destination="NdA-cK-f3w" id="rio-xK-k9z"/>
                 <outlet property="nameLabel" destination="Gay-Yt-zjU" id="jej-hR-U8h"/>
+                <outlet property="signImageView" destination="Jxw-KU-BMn" id="5Di-hb-2xx"/>
                 <outlet property="skillLabel" destination="YGd-Cm-Vpl" id="e2I-zC-tpa"/>
             </connections>
-            <point key="canvasLocation" x="-30.5" y="-105.5"/>
+            <point key="canvasLocation" x="-31" y="-106"/>
         </view>
     </objects>
 </document>

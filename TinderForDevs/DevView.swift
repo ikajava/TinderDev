@@ -10,7 +10,8 @@ import UIKit
 
 class DevView: UIView {
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var imageLabel: UIImageView!
+    @IBOutlet weak var devImageView: UIImageView!
     @IBOutlet weak var skillLabel: UILabel!
-    
+    @IBOutlet weak var signImageView: UIImageView!
+    var developer: Developer?
 }
